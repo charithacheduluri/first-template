@@ -14,9 +14,8 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-import OS
-TEMPLATE-DIR.path.join(BASE_DIR,'templates'),
+import os
+TEMPLATE-DIR=os.path.join(BASE_DIR,'TEMPLATES'),
 
 
 # Quick-start development settings - unsuitable for production
